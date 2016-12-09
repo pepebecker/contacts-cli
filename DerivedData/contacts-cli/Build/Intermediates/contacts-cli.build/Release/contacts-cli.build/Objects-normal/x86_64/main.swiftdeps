@@ -1,0 +1,676 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Contacts1010"
+- "getContacts"
+provides-nominal:
+- "C12contacts_cli12Contacts1010"
+provides-member:
+- ["C12contacts_cli12Contacts1010", ""]
+provides-dynamic-lookup:
+- "getAllContacts"
+depends-top-level:
+- "NSObject"
+- !private "kABPhoneProperty"
+- !private "kABLastNameProperty"
+- !private "exit"
+- !private "ABPerson"
+- !private "EXIT_FAILURE"
+- !private "kABOrganizationProperty"
+- !private "ABCopyLocalizedPropertyOrLabel"
+- "print"
+- !private "kABFirstNameProperty"
+- "Array"
+- "String"
+- "CastingPrecedence"
+- "getContacts"
+- "AssignmentPrecedence"
+- !private "CFString"
+- !private "ABAddressBook"
+- "Void"
+- !private "..<"
+- !private "kABEmailProperty"
+- !private "ABMultiValueCount"
+- !private "StringLiteralType"
+- !private "ABRecordCopyValue"
+- !private "fputs"
+- "Contacts1010"
+- !private "ABMultiValueCopyLabelAtIndex"
+- !private "ABMultiValueCopyValueAtIndex"
+- "JSONSerialization"
+- !private "stderr"
+- "NSString"
+- !private "ABMultiValueRef"
+depends-member:
+- ["CSo13ABAddressBook", "deinit"]
+- !private ["CSo13ABAddressBook", "people"]
+- !private ["CSo13ABAddressBook", "shared"]
+- ["CSo15ABMultiValueRef", "deinit"]
+- ["CSo8ABPerson", "deinit"]
+- !private ["CSo8ABPerson", "value"]
+- !private ["CSo8ABRecord", "value"]
+- !private ["Ps9AnyObject", "ABAddressBook"]
+- !private ["Ps9AnyObject", "ABCopyLocalizedPropertyOrLabel"]
+- !private ["Ps9AnyObject", "ABMultiValueCopyLabelAtIndex"]
+- !private ["Ps9AnyObject", "ABMultiValueCopyValueAtIndex"]
+- !private ["Ps9AnyObject", "ABMultiValueCount"]
+- !private ["Ps9AnyObject", "ABRecordCopyValue"]
+- !private ["Ps9AnyObject", "EXIT_FAILURE"]
+- ["Ps9AnyObject", "Encoding"]
+- !private ["Ps9AnyObject", "String"]
+- ["Ps9AnyObject", "data"]
+- ["Ps9AnyObject", "deinit"]
+- !private ["Ps9AnyObject", "exit"]
+- !private ["Ps9AnyObject", "fputs"]
+- ["Ps9AnyObject", "getAllContacts"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kABEmailProperty"]
+- !private ["Ps9AnyObject", "kABFirstNameProperty"]
+- !private ["Ps9AnyObject", "kABLastNameProperty"]
+- !private ["Ps9AnyObject", "kABOrganizationProperty"]
+- !private ["Ps9AnyObject", "kABPhoneProperty"]
+- !private ["Ps9AnyObject", "people"]
+- !private ["Ps9AnyObject", "shared"]
+- !private ["Ps9AnyObject", "stderr"]
+- !private ["Ps9AnyObject", "value"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "Iterator"]
+- ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- ["Sa", "deinit"]
+- !private ["Sa", "init"]
+- ["Ps23BidirectionalCollection", "Iterator"]
+- ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- ["Ps22BidirectionalIndexable", "Iterator"]
+- ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "append"]
+- !private ["Ps22BidirectionalIndexable", "init"]
+- !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
+- ["CSo8CFString", "deinit"]
+- !private ["Ps7CVarArg", "ABAddressBook"]
+- !private ["Ps7CVarArg", "ABCopyLocalizedPropertyOrLabel"]
+- !private ["Ps7CVarArg", "ABMultiValueCopyLabelAtIndex"]
+- !private ["Ps7CVarArg", "ABMultiValueCopyValueAtIndex"]
+- !private ["Ps7CVarArg", "ABMultiValueCount"]
+- !private ["Ps7CVarArg", "ABRecordCopyValue"]
+- !private ["Ps7CVarArg", "EXIT_FAILURE"]
+- ["Ps7CVarArg", "Encoding"]
+- !private ["Ps7CVarArg", "IntegerLiteralType"]
+- ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "String"]
+- !private ["Ps7CVarArg", "_DisabledRangeIndex"]
+- ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "append"]
+- ["Ps7CVarArg", "data"]
+- !private ["Ps7CVarArg", "exit"]
+- !private ["Ps7CVarArg", "fputs"]
+- ["Ps7CVarArg", "getAllContacts"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "kABEmailProperty"]
+- !private ["Ps7CVarArg", "kABFirstNameProperty"]
+- !private ["Ps7CVarArg", "kABLastNameProperty"]
+- !private ["Ps7CVarArg", "kABOrganizationProperty"]
+- !private ["Ps7CVarArg", "kABPhoneProperty"]
+- !private ["Ps7CVarArg", "people"]
+- !private ["Ps7CVarArg", "shared"]
+- !private ["Ps7CVarArg", "stderr"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps7CVarArg", "value"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Index"]
+- ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- ["Ps10Comparable", "Encoding"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- !private ["Ps10Comparable", "init"]
+- !private ["C12contacts_cli12Contacts1010", "ABAddressBook"]
+- !private ["C12contacts_cli12Contacts1010", "ABCopyLocalizedPropertyOrLabel"]
+- !private ["C12contacts_cli12Contacts1010", "ABMultiValueCopyLabelAtIndex"]
+- !private ["C12contacts_cli12Contacts1010", "ABMultiValueCopyValueAtIndex"]
+- !private ["C12contacts_cli12Contacts1010", "ABMultiValueCount"]
+- !private ["C12contacts_cli12Contacts1010", "ABMultiValueRef"]
+- !private ["C12contacts_cli12Contacts1010", "ABPerson"]
+- !private ["C12contacts_cli12Contacts1010", "ABRecordCopyValue"]
+- !private ["C12contacts_cli12Contacts1010", "CFString"]
+- !private ["C12contacts_cli12Contacts1010", "EXIT_FAILURE"]
+- ["C12contacts_cli12Contacts1010", "String"]
+- ["C12contacts_cli12Contacts1010", "Void"]
+- ["C12contacts_cli12Contacts1010", "deinit"]
+- !private ["C12contacts_cli12Contacts1010", "exit"]
+- !private ["C12contacts_cli12Contacts1010", "fputs"]
+- ["C12contacts_cli12Contacts1010", "getAllContacts"]
+- ["C12contacts_cli12Contacts1010", "init"]
+- !private ["C12contacts_cli12Contacts1010", "kABEmailProperty"]
+- !private ["C12contacts_cli12Contacts1010", "kABFirstNameProperty"]
+- !private ["C12contacts_cli12Contacts1010", "kABLastNameProperty"]
+- !private ["C12contacts_cli12Contacts1010", "kABOrganizationProperty"]
+- !private ["C12contacts_cli12Contacts1010", "kABPhoneProperty"]
+- !private ["C12contacts_cli12Contacts1010", "stderr"]
+- !private ["Vs14CountableRange", "Iterator"]
+- !private ["Vs14CountableRange", "_Element"]
+- ["Vs14CountableRange", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "ABAddressBook"]
+- !private ["Ps28CustomDebugStringConvertible", "ABCopyLocalizedPropertyOrLabel"]
+- !private ["Ps28CustomDebugStringConvertible", "ABMultiValueCopyLabelAtIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "ABMultiValueCopyValueAtIndex"]
+- !private ["Ps28CustomDebugStringConvertible", "ABMultiValueCount"]
+- !private ["Ps28CustomDebugStringConvertible", "ABRecordCopyValue"]
+- !private ["Ps28CustomDebugStringConvertible", "EXIT_FAILURE"]
+- ["Ps28CustomDebugStringConvertible", "Encoding"]
+- ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "exit"]
+- !private ["Ps28CustomDebugStringConvertible", "fputs"]
+- ["Ps28CustomDebugStringConvertible", "getAllContacts"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kABEmailProperty"]
+- !private ["Ps28CustomDebugStringConvertible", "kABFirstNameProperty"]
+- !private ["Ps28CustomDebugStringConvertible", "kABLastNameProperty"]
+- !private ["Ps28CustomDebugStringConvertible", "kABOrganizationProperty"]
+- !private ["Ps28CustomDebugStringConvertible", "kABPhoneProperty"]
+- !private ["Ps28CustomDebugStringConvertible", "people"]
+- !private ["Ps28CustomDebugStringConvertible", "shared"]
+- !private ["Ps28CustomDebugStringConvertible", "stderr"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps29CustomPlaygroundQuickLookable", "Encoding"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "Encoding"]
+- !private ["Ps17CustomReflectable", "IntegerLiteralType"]
+- ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
+- ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "ABAddressBook"]
+- !private ["Ps23CustomStringConvertible", "ABCopyLocalizedPropertyOrLabel"]
+- !private ["Ps23CustomStringConvertible", "ABMultiValueCopyLabelAtIndex"]
+- !private ["Ps23CustomStringConvertible", "ABMultiValueCopyValueAtIndex"]
+- !private ["Ps23CustomStringConvertible", "ABMultiValueCount"]
+- !private ["Ps23CustomStringConvertible", "ABRecordCopyValue"]
+- !private ["Ps23CustomStringConvertible", "EXIT_FAILURE"]
+- ["Ps23CustomStringConvertible", "Encoding"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
+- ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "exit"]
+- !private ["Ps23CustomStringConvertible", "fputs"]
+- ["Ps23CustomStringConvertible", "getAllContacts"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kABEmailProperty"]
+- !private ["Ps23CustomStringConvertible", "kABFirstNameProperty"]
+- !private ["Ps23CustomStringConvertible", "kABLastNameProperty"]
+- !private ["Ps23CustomStringConvertible", "kABOrganizationProperty"]
+- !private ["Ps23CustomStringConvertible", "kABPhoneProperty"]
+- !private ["Ps23CustomStringConvertible", "people"]
+- ["Ps23CustomStringConvertible", "rawValue"]
+- !private ["Ps23CustomStringConvertible", "shared"]
+- !private ["Ps23CustomStringConvertible", "stderr"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "utf8"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- ["Ps23CustomStringConvertible", ""]
+- ["V10Foundation4Data", "deinit"]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["VE10FoundationSS8Encoding", "deinit"]
+- ["VE10FoundationSS8Encoding", "rawValue"]
+- ["VE10FoundationSS8Encoding", "utf8"]
+- !private ["Ps9Equatable", "ABAddressBook"]
+- !private ["Ps9Equatable", "ABCopyLocalizedPropertyOrLabel"]
+- !private ["Ps9Equatable", "ABMultiValueCopyLabelAtIndex"]
+- !private ["Ps9Equatable", "ABMultiValueCopyValueAtIndex"]
+- !private ["Ps9Equatable", "ABMultiValueCount"]
+- !private ["Ps9Equatable", "ABRecordCopyValue"]
+- !private ["Ps9Equatable", "EXIT_FAILURE"]
+- ["Ps9Equatable", "Element"]
+- ["Ps9Equatable", "Encoding"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "Iterator"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "_Element"]
+- ["Ps9Equatable", "data"]
+- !private ["Ps9Equatable", "exit"]
+- !private ["Ps9Equatable", "fputs"]
+- ["Ps9Equatable", "getAllContacts"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "kABEmailProperty"]
+- !private ["Ps9Equatable", "kABFirstNameProperty"]
+- !private ["Ps9Equatable", "kABLastNameProperty"]
+- !private ["Ps9Equatable", "kABOrganizationProperty"]
+- !private ["Ps9Equatable", "kABPhoneProperty"]
+- !private ["Ps9Equatable", "people"]
+- ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "shared"]
+- !private ["Ps9Equatable", "stderr"]
+- ["Ps9Equatable", "utf8"]
+- !private ["Ps9Equatable", "value"]
+- ["Ps9Equatable", ""]
+- ["Ps5Error", "deinit"]
+- ["Ps5Error", "localizedDescription"]
+- ["Ps25ExpressibleByArrayLiteral", "Element"]
+- ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "Encoding"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
+- ["Ps32ExpressibleByStringInterpolation", "Encoding"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "Encoding"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "Encoding"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "ABAddressBook"]
+- !private ["Ps8Hashable", "ABCopyLocalizedPropertyOrLabel"]
+- !private ["Ps8Hashable", "ABMultiValueCopyLabelAtIndex"]
+- !private ["Ps8Hashable", "ABMultiValueCopyValueAtIndex"]
+- !private ["Ps8Hashable", "ABMultiValueCount"]
+- !private ["Ps8Hashable", "ABRecordCopyValue"]
+- !private ["Ps8Hashable", "EXIT_FAILURE"]
+- ["Ps8Hashable", "Encoding"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "_DisabledRangeIndex"]
+- ["Ps8Hashable", "data"]
+- !private ["Ps8Hashable", "exit"]
+- !private ["Ps8Hashable", "fputs"]
+- ["Ps8Hashable", "getAllContacts"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kABEmailProperty"]
+- !private ["Ps8Hashable", "kABFirstNameProperty"]
+- !private ["Ps8Hashable", "kABLastNameProperty"]
+- !private ["Ps8Hashable", "kABOrganizationProperty"]
+- !private ["Ps8Hashable", "kABPhoneProperty"]
+- !private ["Ps8Hashable", "people"]
+- ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "shared"]
+- !private ["Ps8Hashable", "stderr"]
+- ["Ps8Hashable", "utf8"]
+- !private ["Ps8Hashable", "value"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Index"]
+- ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "append"]
+- !private ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "subscript"]
+- ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "_DisabledRangeIndex"]
+- ["Si", "deinit"]
+- ["Vs5Int32", "deinit"]
+- !private ["Ps7Integer", "IntegerLiteralType"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "_DisabledRangeIndex"]
+- !private ["Ps17IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
+- ["Ps16IteratorProtocol", "Element"]
+- ["CSo17JSONSerialization", "data"]
+- ["Ps25LosslessStringConvertible", "Encoding"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "Encoding"]
+- !private ["Ps10MirrorPath", "IntegerLiteralType"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
+- !private ["Ps10MirrorPath", "init"]
+- ["Ps17MutableCollection", "Iterator"]
+- ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "init"]
+- ["Ps16MutableIndexable", "Iterator"]
+- ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "init"]
+- ["PSo8NSCoding", "Encoding"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "Encoding"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "Encoding"]
+- ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "ABAddressBook"]
+- !private ["CSo8NSObject", "ABCopyLocalizedPropertyOrLabel"]
+- !private ["CSo8NSObject", "ABMultiValueCopyLabelAtIndex"]
+- !private ["CSo8NSObject", "ABMultiValueCopyValueAtIndex"]
+- !private ["CSo8NSObject", "ABMultiValueCount"]
+- !private ["CSo8NSObject", "ABMultiValueRef"]
+- !private ["CSo8NSObject", "ABPerson"]
+- !private ["CSo8NSObject", "ABRecordCopyValue"]
+- !private ["CSo8NSObject", "CFString"]
+- !private ["CSo8NSObject", "EXIT_FAILURE"]
+- ["CSo8NSObject", "Encoding"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "data"]
+- ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "exit"]
+- !private ["CSo8NSObject", "fputs"]
+- ["CSo8NSObject", "getAllContacts"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kABEmailProperty"]
+- !private ["CSo8NSObject", "kABFirstNameProperty"]
+- !private ["CSo8NSObject", "kABLastNameProperty"]
+- !private ["CSo8NSObject", "kABOrganizationProperty"]
+- !private ["CSo8NSObject", "kABPhoneProperty"]
+- !private ["CSo8NSObject", "people"]
+- !private ["CSo8NSObject", "shared"]
+- !private ["CSo8NSObject", "stderr"]
+- !private ["CSo8NSObject", "value"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "ABAddressBook"]
+- !private ["PSo16NSObjectProtocol", "ABCopyLocalizedPropertyOrLabel"]
+- !private ["PSo16NSObjectProtocol", "ABMultiValueCopyLabelAtIndex"]
+- !private ["PSo16NSObjectProtocol", "ABMultiValueCopyValueAtIndex"]
+- !private ["PSo16NSObjectProtocol", "ABMultiValueCount"]
+- !private ["PSo16NSObjectProtocol", "ABRecordCopyValue"]
+- !private ["PSo16NSObjectProtocol", "EXIT_FAILURE"]
+- ["PSo16NSObjectProtocol", "Encoding"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo16NSObjectProtocol", "exit"]
+- !private ["PSo16NSObjectProtocol", "fputs"]
+- ["PSo16NSObjectProtocol", "getAllContacts"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kABEmailProperty"]
+- !private ["PSo16NSObjectProtocol", "kABFirstNameProperty"]
+- !private ["PSo16NSObjectProtocol", "kABLastNameProperty"]
+- !private ["PSo16NSObjectProtocol", "kABOrganizationProperty"]
+- !private ["PSo16NSObjectProtocol", "kABPhoneProperty"]
+- !private ["PSo16NSObjectProtocol", "people"]
+- !private ["PSo16NSObjectProtocol", "shared"]
+- !private ["PSo16NSObjectProtocol", "stderr"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo19NSPasteboardReading", "Encoding"]
+- ["PSo19NSPasteboardReading", "init"]
+- ["PSo19NSPasteboardWriting", "Encoding"]
+- ["PSo19NSPasteboardWriting", "init"]
+- ["PSo14NSSecureCoding", "Encoding"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "Encoding"]
+- ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- ["Ps9OptionSet", "Element"]
+- ["Sq", "deinit"]
+- ["Ps22RandomAccessCollection", "Iterator"]
+- ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- ["Ps21RandomAccessIndexable", "Iterator"]
+- ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "append"]
+- !private ["Ps21RandomAccessIndexable", "init"]
+- !private ["Vs5Range", "Iterator"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps26RangeReplaceableCollection", "Iterator"]
+- ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- ["Ps25RangeReplaceableIndexable", "Iterator"]
+- ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "append"]
+- !private ["Ps25RangeReplaceableIndexable", "init"]
+- ["Ps16RawRepresentable", "Element"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", "utf8"]
+- ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- ["Ps10SetAlgebra", "Element"]
+- !private ["Ps13SignedInteger", "IntegerLiteralType"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps12SignedNumber", "IntegerLiteralType"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "_DisabledRangeIndex"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "_DisabledRangeIndex"]
+- ["SS", "Encoding"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- ["Ps16TextOutputStream", "Encoding"]
+- !private ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "Encoding"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- ["Vs9Unmanaged", "deinit"]
+- !private ["Vs9Unmanaged", "takeRetainedValue"]
+- !private ["SP", "deinit"]
+- ["VCSo17JSONSerialization14WritingOptions", "Element"]
+- ["VCSo17JSONSerialization14WritingOptions", "deinit"]
+- ["Ps14_ArrayProtocol", "Iterator"]
+- ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- ["Ps24_DestructorSafeContainer", "Iterator"]
+- ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "Encoding"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisabledRangeIndex"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "Encoding"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "Encoding"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "Encoding"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "Encoding"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "ABAddressBook"]
+- !private ["Ps9_Hashable", "ABCopyLocalizedPropertyOrLabel"]
+- !private ["Ps9_Hashable", "ABMultiValueCopyLabelAtIndex"]
+- !private ["Ps9_Hashable", "ABMultiValueCopyValueAtIndex"]
+- !private ["Ps9_Hashable", "ABMultiValueCount"]
+- !private ["Ps9_Hashable", "ABRecordCopyValue"]
+- !private ["Ps9_Hashable", "EXIT_FAILURE"]
+- ["Ps9_Hashable", "Encoding"]
+- !private ["Ps9_Hashable", "IntegerLiteralType"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "String"]
+- !private ["Ps9_Hashable", "_DisabledRangeIndex"]
+- ["Ps9_Hashable", "data"]
+- !private ["Ps9_Hashable", "exit"]
+- !private ["Ps9_Hashable", "fputs"]
+- ["Ps9_Hashable", "getAllContacts"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "kABEmailProperty"]
+- !private ["Ps9_Hashable", "kABFirstNameProperty"]
+- !private ["Ps9_Hashable", "kABLastNameProperty"]
+- !private ["Ps9_Hashable", "kABOrganizationProperty"]
+- !private ["Ps9_Hashable", "kABPhoneProperty"]
+- !private ["Ps9_Hashable", "people"]
+- ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "shared"]
+- !private ["Ps9_Hashable", "stderr"]
+- ["Ps9_Hashable", "utf8"]
+- !private ["Ps9_Hashable", "value"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps8_Integer", "IntegerLiteralType"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "_DisabledRangeIndex"]
+- !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
+- ["Ps21_ObjectiveCBridgeable", "Encoding"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
+- ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps14_SignedInteger", "IntegerLiteralType"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps11_Strideable", "IntegerLiteralType"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "_DisabledRangeIndex"]
+depends-nominal:
+- "CSo13ABAddressBook"
+- "CSo15ABMultiValueRef"
+- "CSo8ABPerson"
+- !private "CSo8ABRecord"
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps22BidirectionalIndexable"
+- !private "Ps17BitwiseOperations"
+- "CSo8CFString"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "C12contacts_cli12Contacts1010"
+- "Vs14CountableRange"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "V10Foundation4Data"
+- "Vs10Dictionary"
+- "VE10FoundationSS8Encoding"
+- "Ps9Equatable"
+- "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "SQ"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- "Vs16IndexingIterator"
+- "Si"
+- "Vs5Int32"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "Ps16IteratorProtocol"
+- "CSo17JSONSerialization"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo19NSPasteboardReading"
+- "PSo19NSPasteboardWriting"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Os5Never"
+- "Ps9OptionSet"
+- "Sq"
+- "Ps22RandomAccessCollection"
+- "Ps21RandomAccessIndexable"
+- !private "Vs5Range"
+- "Ps26RangeReplaceableCollection"
+- "Ps25RangeReplaceableIndexable"
+- "Ps16RawRepresentable"
+- "Ps8Sequence"
+- "Ps10SetAlgebra"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Su"
+- "Vs9Unmanaged"
+- !private "SP"
+- "VCSo17JSONSerialization14WritingOptions"
+- "Ps14_ArrayProtocol"
+- "Ps24_DestructorSafeContainer"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+interface-hash: "1ef0de4e89dea6f52b599b812f40a9a6"

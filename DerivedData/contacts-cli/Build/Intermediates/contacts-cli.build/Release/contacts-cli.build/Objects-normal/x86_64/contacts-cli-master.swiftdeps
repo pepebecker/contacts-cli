@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "b3a1a8ed8c4dd4b782dec4556ab713b0"
+build_time: [534637212, 610849000]
+inputs:
+  "/Volumes/Home/Pepe/Developer/GitHub/contacts-cli/contacts-cli/main.swift": [534095761, 0]
