@@ -1,0 +1,7 @@
+sudo: false
+os:
+  - osx
+osx_image: xcode8.1
+language: swift
+xcode_project: contacts-cli.xcodeproj
+xcode_scheme: Release
